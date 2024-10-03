@@ -9,7 +9,7 @@ queries = []
 
 for n_id_produto in produtos_ids:
     query = f"""let
-    url = "https://app.omie.com.br/api/v1/estoque/resumo/",
+    url = "https://xxxxxxxxxxxxx/api/v1/estoque/resumo/",
     
     // corpo JSON
     body = "{{\"call\": \"ObterEstoqueProduto\", \"app_key\": \"yyyyyyyyyyyyyyyy\", \"app_secret\": \"xxxxxxxxxxxxxxxxx\", \"param\": [{{\"cEAN\": \"\", \"nIdProduto\": {n_id_produto}, \"cCodigo\": \"\", \"xCodigo\": \"\", \"dDia\": \"03/10/2024\"}}]}}",
